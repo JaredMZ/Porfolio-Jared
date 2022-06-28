@@ -4,6 +4,10 @@
     transition: color 0.8s;
 }
 
+.menu-button:hover{
+    color: #A4A4A4;
+}
+
 #download-btn:hover {
     text-shadow:
     0 0 10px rgb(210, 210, 210),
