@@ -33,6 +33,8 @@
         display: flex;
         margin-right: 150px;
     }
+
+   
     
     .item {
         text-align: center;
@@ -55,6 +57,23 @@
         font-size: 16pt;
     }
 
+    #about-img {
+        width: 200px;
+        height: 300px;
+    }
+    
+    #technologies {
+        display: flex;
+    }
+    
+    .tech-img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .tech-name {
+        font-size: 1.5rem;
+    }
     
     .sections {
         padding-top: 100px;
