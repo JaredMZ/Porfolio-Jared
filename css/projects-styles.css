@@ -5,14 +5,15 @@
 }
 
 .page-content {
+    height: 100%;
     display: grid;
-    grid-gap: 3rem;
+    grid-gap: 1rem;
     padding: 1rem;
     max-width: 1024px;
-    margin: 0 auto;
+    grid-template-columns: 1;
     font-family: 'Inter', sans-serif;
 }
-
+/*
 @media (min-width: 600px) {
     .page-content {
         display: grid;
@@ -25,22 +26,24 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
-}
+}*/
 
 .card {
+    margin: 0 auto;
     position: relative;
     display: flex;
     align-items: flex-end;
     overflow: hidden;
     padding: 1rem;
-    width: 100%;
+    width: 50vw;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: #000000;
 }
 
-@media (min-width: 600px) {
+@media (m-width: 600px) {
     .card {
+        
         height: 350px;
     }
 }
@@ -88,22 +91,6 @@
     background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
 }
 
-.card:nth-child(5):before {
-    background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
-
-.card:nth-child(6):before {
-    background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
-
-.card:nth-child(7):before {
-    background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
-
-.card:nth-child(8):before {
-    background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
-
 .content {
     position: relative;
     display: flex;
@@ -120,14 +107,13 @@
 }
 
 .title {
-    font-size: 15pt;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.2;
 }
 
 .copy {
-    font-family: var(--font-serif);
-    font-size: 10pt;
+    font-size: 0.7rem;
     line-height: 1.35;
     color: #ffffff;
 }

@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=Inter:wght@200;300;400;500;600&family=Oxygen+Mono&display=swap');
 
+html {
+    min-width: 300px;
+    
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    
 	margin-top: 0;
     margin: 0;
     background: #011317;
     box-sizing: border-box;
     font-family: 'Chivo', sans-serif;
-
 }
 
 ul, li {
@@ -21,10 +28,10 @@ a {
     background: #000000;
     opacity: 0.9;
     filter: blur(0.1px);
-    display: flex;
+    display: none;
     justify-content: space-between;
-    width: 100%;
-    height: 50px;
+    width: 100vw;
+    height: 3rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -34,9 +41,8 @@ a {
 #logo-img{
     display: flex;
     margin-top: 5px;
-    margin-left: 150px;
-    width: 80px;
-    height: 40px;
+    width: 50px;
+    height: 30px;
 }
 
 #logo-img:hover{
@@ -62,38 +68,36 @@ a {
 
 
 #home {
-    height: 100vh;
-    margin: 0px auto 50px auto;
-    padding-top: 50px;
+    height: 90vh;
+    padding-top: 5rem;
+    margin-bottom: 0;
 }
 
 #text-presentation-container{
-    width: 50%;
-    margin: 50px auto 50px auto;
+    width: 100vw;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 10px;
+}
+
+.zero-margin{
+    margin: 0;
 }
 
 #txt1{
-    margin: 0;
-    font-size: 20pt;
+    font-size: 1.5rem;
 }
 
 #txt2{
-    font-size: 40pt;
-    margin: 0;
-    
+    font-size: 2.5rem;
 }
 
 #txt3{
-    font-size: 27pt;
-    margin: 0;
+    font-size: 1.2rem;
     color: #a4a4a4;
 }
 
 #presentation-img {
-    margin-top: 50px;
+    margin-top: 1rem;
     width: 300px;
     height: 300px;
 }
@@ -101,7 +105,7 @@ a {
 #social {
     display: flex;
     justify-content: center;
-    margin: 0 auto 0 auto;
+    margin: 5rem auto 0 auto;
 }
 
 .social-list{
@@ -111,9 +115,8 @@ a {
 }
 
 .social-item{
-    font-size: 18pt;
+    font-size: 1.5rem;
     display: flex;
-    padding: 0;
 }
 
 .social-link{ 

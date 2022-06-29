@@ -1,65 +1,63 @@
 .sections {
     text-align: center;
     color: white;
-    padding-top: 60px;
     height: 100vh;
 }
 
-.section-title{
+.section-title {
     text-align: center;
-    font-size: 19pt;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 0.5rem auto;
     width: 50%;
 }
 
 #about {
-    height: 100vh;
+    margin-top: 40px;
+    height: 900px;
 }
 
-#about-img{
-    width: 200px;
-    height: 300px;
+#about-img {
+    width: 150px;
+    height: 200px;
 }
 
-#biography-text{
-    margin: 0 auto 0 auto;
-    font-size: 15pt;
+#biography-text {
+    font-size: 1rem;
     font-style: italic;
     font-weight: 300;
     color: #a4a4a4;
     text-align: center;
     line-height: 1.5;
-    width: 600px;
+    width: 100vw;
 }
 
-
 #technologies {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 12rem);
     margin: 50px 150px 0 150px;
     justify-content: center;
 }
 
 .technology-card {
-    display: block;
     width: 200px;
     border: none;
 }
 
 
 .tech-img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
+}
+
+.tech-name {
+    font-size: 1rem;
 }
 
 
-#projects {
-    height: 100vh;
-    margin: 0 auto 0 auto;
-}
-
-#contact{
+#contact {
     height: 500px;
+    margin-top: 500px;
 }
 
 #form {
@@ -69,11 +67,7 @@
     font-family: 'Chivo', sans-serif;
 }
 
-#form-list{
-    display: block;
-}
-
-.form-item{
+.form-item {
     margin: 10px 0;
     padding: 0;
 }
@@ -81,21 +75,20 @@
 .form-input {
     color: #FFFFFF;
     border: none;
-    width: 300px;
+    width: 50vw;
     height: 25px;
     outline: none;
     background: #000000;
     padding-left: 10px;
 }
 
-#message{
+#message {
     color: #FFFFFF;
     border: none;
     outline: none;
-    width: 300px;
+    width: 50vw;
     resize: none;
     background: #000000;
     font-family: 'Chivo', sans-serif;
     padding-left: 10px;
 }
-
